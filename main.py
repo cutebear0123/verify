@@ -1,9 +1,12 @@
+id='verify role id'
+token='your token'
+
+
 from PIL import Image, ImageDraw, ImageFont
 from discord.ext import commands
 import discord,os,asyncio
 from secrets import token_hex
 from random import randint
-id='verify role id'
 intents = discord.Intents().all()
 bot = commands.Bot(intents=intents, help_command=None)
 
@@ -64,4 +67,4 @@ async def verify(ctx):
             bot.guilds[0].get_role(id)
         )
         
-bot.run('token')
+bot.run(token)
