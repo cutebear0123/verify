@@ -5,8 +5,8 @@ discord verify bot
 
 ## require
 ### pycord 2.0 (pip install -U git+https://github.com/Pycord-Development/pycord)
-### python (pip install -U pillow)
-### pillow
+### python 
+### pillow (pip install -U pillow)
 ### how to use
 ### put your token and verify role id at main.py
 ### run main.py
